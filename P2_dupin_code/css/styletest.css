@@ -1,0 +1,613 @@
+
+.blueStar
+{
+    color: #0065FC;
+}
+
+.greyStar
+{
+    color: lightgrey;
+}
+
+/*general*/
+ul
+{
+    list-style-type: none;
+        padding-left: 0;
+}
+
+.marginLeft
+{
+    margin-left: 20px;
+}
+
+.flexAround
+{
+    display: flex;
+        justify-content: space-around;
+            align-items: center;
+}
+
+/* general*/
+
+body
+{
+        font-family: 'Raleway';
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*menu*/
+
+#logo-Menu
+{
+    display: flex;
+        justify-content: space-between;
+            align-items: center;
+}
+
+#Menu
+{
+    width: 320px;
+        display: flex;
+            justify-content: space-around;
+                align-items: center;
+}
+
+
+
+.menuH
+{
+    color: black;
+        text-decoration: none;
+        padding: 20px 35px 20px 35px;
+}
+
+.menuA
+{
+    color: black;
+        text-decoration: none;
+        padding: 20px 35px 20px 35px;
+}
+
+.menuA:hover
+{
+    border-top: 2px solid #0065FC;
+        color: #0065FC;
+        padding: 35px 35px 20px 35px;
+}
+
+.menuH:hover
+{
+    border-top: 2px solid #0065FC;
+        color: #0065FC;
+        padding: 35px 35px 20px 35px;
+}
+
+/*menu*/
+
+/*barre de recherche*/
+
+
+#search
+{
+    width: 400px;
+        border-radius: 10px;
+            display: flex;
+                justify-content: center;
+                    align-items: center;
+                        margin-bottom: 20px;
+}
+
+#mapIcon
+{
+    height: 50px;
+        width: 50px;
+            border-radius: 10px 0 0 10px;
+                background-color: #F2F2F2;
+                    display: flex;
+                        justify-content: center;
+                            align-items: center;
+}
+
+.searchBorder
+{
+    height: 50px;
+        width: 230px;
+            font-size: 20px;
+                color: black;
+                    border: 0.5px solid #F2F2F2;
+                        display: flex;
+                            justify-content: center;
+                                align-items: center;
+}
+
+#searchZone
+{
+    border: none;
+        padding-left: 20px;
+            font-size: 20px;
+}
+
+
+#research
+{
+   height: 50px;
+        width: 120px;
+            color: #FFFF;
+                cursor: pointer;
+                    border-radius: 0 10px 10px 0;
+                        display: flex;
+                            justify-content: center;
+                                align-items: center;
+                                    background-color: #0065FC;
+}
+
+#phoneGlass
+{
+    display: none;
+}
+
+/*barre de recherche*/
+
+
+
+/*filtres*/
+#container_filters{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;  
+    margin-bottom: 30px;
+}
+#container_filters h3{
+    margin: -7px 30px -7px 0;
+}
+
+#container_choices{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#container_choices span{
+    color: #0065FC;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #DEEBFF;
+}
+
+#container_choices li{
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px / 30px;
+    border-left: none;
+    margin: 10px 30px 0 0;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+#container_choices a{
+    padding: 15px 15px 15px 10px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#container_choices li:hover{
+    background-color: #DEEBFF;
+}
+
+.textFilter
+{
+    text-decoration: none;
+        color: black;
+}
+
+/*filtres*/
+
+
+/* info*/
+#container_info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#container_info p{
+    margin-left: 15px;
+}
+
+#container_info span{
+    color: #0065FC;
+    font-size: 12px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50%;
+    padding: 3px 8px 3px 8px;
+}
+/*info*/
+
+
+/*hebergement*/
+.backgroundH
+{
+   flex: 2;
+        height: 710px;
+            margin: 0 20px 0 20px;
+                    border-radius: 10px;
+                        padding: 8px 20px 10px 20px;
+                                background-color: #F2F2F2;
+}
+
+
+.cards 
+{
+    display: flex;
+        flex-wrap: wrap;
+            justify-content: space-around;           
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px;
+    margin: 20px 0 20px 0;
+    height: 20%;
+    width: 29%;
+    box-shadow: 0 0 10px grey;
+}
+
+.card-image img
+{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 125px;
+}
+
+.card-body
+{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    margin-top: -10px;
+}
+
+#stars1
+{
+    margin-top: 25px;
+}
+
+#stars2
+{
+    margin-top: 25px;
+}
+
+#stars3
+{
+    margin-top: 25px;
+}
+
+/*hebergement*/
+
+/*populaire*/
+.backgroundP
+{
+   flex: 1;
+        height: 720px;
+            margin: 0 20px 0 20px;
+                    border-radius: 10px;
+                        padding: 8px 20px 0 20px;
+                                background-color: #F2F2F2;
+}
+
+#rents_pop_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px 0 10px;
+}
+
+#rents_pop_title span{
+    font-size: 25px;
+}
+
+.cardsPop 
+{
+    display: flex;
+        flex-wrap: wrap;     
+            justify-content: space-around;    
+}
+
+.cardPop
+{
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px;
+    margin: 30px 0 30px 0;
+    height: 20%;
+    width: 100%;
+    box-shadow: 0 0 10px grey;
+}
+
+.cardPop-image img
+{
+    border-radius: 25px 0 0 25px;
+    width: 35%;
+    height: 125px;
+    margin-right: 10px;
+    float: left;
+}
+
+.cardPop-body
+{
+    padding: 0.03px 0 7px 10px;
+    line-height: 0px;
+    font-size: 95%;
+}
+
+.cardPop-title
+{
+    line-height: 20px;
+    font-size: smaller;
+}
+
+.afficherPlus
+{
+ 
+            margin-left: 15px;
+            text-align: left;
+}
+
+/*populaire*/
+
+
+.cardsActivity 
+{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-around;        
+}
+
+.cardActivity  {
+    width: 280px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px grey;
+  }
+  .cardActivity  a 
+  {
+    color: #333; 
+    text-decoration: none;
+  }
+  .cardActivity :hover .cardActivity-image img 
+  {
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .cardActivity-image {
+    height: 120px;
+    padding: 1%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+  }
+  .cardActivity-image img {
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .cardActivity-body 
+  {
+    line-height: 8px;
+        padding-left: 10px;
+            justify-content: center;
+       
+}
+
+.cardActivity-bodyTitles
+{
+    line-height: 15px;
+}
+
+.bigCardsImages
+{
+    height: 120px;
+    padding: 1%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+    height: 272px;
+}
+
+.fortDePomègues
+{
+    height: 152px;
+}
+
+.ilesDeFrioul
+{
+    height: 72px;
+}
+
+.notreDame
+{
+    height: 100px;
+}
+
+.parcLong
+{
+    height: 120px;
+}
+
+.cardFort  
+{
+    width: 280px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px grey;
+  }
+
+  .cardIle  
+  {
+    width: 280px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px grey;
+  }
+
+  .cardDame  
+  {
+    width: 280px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px grey;
+  }
+
+  .cardParc  
+  {
+    width: 280px;
+    height: 170px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 10px grey;
+  }
+
+
+  footer
+{
+    background-color: #F2F2F2;
+        display: flex;
+}
+
+.flexMargin
+{
+    margin-left: 20px;
+        margin-right: 150px;
+            margin-top: 30px;
+                line-height: 30px;
+}
+
+.marginTitre
+{
+    line-height: 20px;
+}
+
+.apparenceLiens
+{
+        text-decoration: none;
+            color: black;
+}
+
+/*media*/
+
+@media screen and (max-width: 895px) and (min-width: 768px)
+    {
+        .backgroundP
+        {
+            margin-bottom: 20px;
+        }
+
+        #reverse
+        {
+            flex-direction: column-reverse;
+        }
+        .backgroundH
+        {
+            background-color: white;
+            margin: 0 -10px 0 10px;
+        }
+
+        .flexMargin
+{
+    margin-left: 20px;
+        margin-right: 60px;
+            margin-top: 25px;
+                line-height: 30px;
+}
+
+@media screen and (width: 768px)
+{
+    #logo-Menu
+    {
+        flex-direction: column;
+    }
+    #Menu
+    {
+        justify-content: space-between;
+            width: 100%;
+                margin-top: 50px;    
+                align-items: center;
+                font-size: 18px;
+                    margin-bottom: 40px;
+    }
+    .menuH
+{
+    color: black;
+        text-decoration: none;
+            font-size: 25px;
+            border-bottom: 4px solid #f2f2f2;
+            padding-left: 110px;
+                padding-right: 110px;
+                    padding-bottom: 15px;
+                        margin-left: -20px;       
+}
+
+.menuA
+{
+    color: black;
+        text-decoration: none;
+        font-size: 25px;
+        border-bottom: 4px solid #f2f2f2;
+        padding-left: 130px; 
+            padding-right: 150px; 
+                margin-right: 0px; 
+                    padding-bottom: 15px; 
+                        
+}
+
+ .menuH:hover
+    {   border-top: none;
+            border-bottom: 4px solid #0065FC;
+                color: #0065FC;
+                padding: 0 110px 15px 110px;
+    }
+    
+    .menuA:hover
+    {   border-top: none;
+            border-bottom: 4px solid #0065FC;
+                color: #0065FC;
+                    margin-right: 0px;
+                        padding: 0 150px 15px 130px
+    }
+}
+.marginTitre
+{
+    line-height: 20px;
+}
+
+}
+
+/*media*/
